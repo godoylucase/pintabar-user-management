@@ -23,7 +23,6 @@ import javax.ws.rs.core.UriInfo;
 /**
  * @author Lucas.Godoy on 12/08/17.
  */
-@Component
 @Path("/user")
 @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
 @Consumes({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
