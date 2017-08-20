@@ -1,20 +1,17 @@
-package com.pintabar.usermanagement.dto;
+package com.pintabar.usermanagement.model.dto;
 
 import com.pintabar.dto.BaseDTO;
-import com.pintabar.usermanagement.dtoentityinterface.IUser;
+import com.pintabar.usermanagement.model.dtoentityinterface.IUser;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.validator.constraints.Email;
-import org.hibernate.validator.constraints.NotBlank;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlRootElement;
-
-import static javax.swing.text.StyleConstants.Size;
 
 /**
  * Created by lucasgodoy on 21/03/17.

@@ -11,6 +11,7 @@
         <module>pintabar-user-management-model</module>
         <module>pintabar-user-management-app</module>
         <module>pintabar-user-management-service</module>
+        <module>pintabar-user-management-api</module>
     </modules>
     <packaging>pom</packaging>
 

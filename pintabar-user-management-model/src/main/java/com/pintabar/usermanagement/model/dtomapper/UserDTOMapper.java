@@ -1,8 +1,8 @@
-package com.pintabar.usermanagement.dtomapper;
+package com.pintabar.usermanagement.model.dtomapper;
 
 import com.pintabar.dtomappers.GenericDTOMapper;
-import com.pintabar.usermanagement.dto.UserDTO;
-import com.pintabar.usermanagement.entity.User;
+import com.pintabar.usermanagement.model.dto.UserDTO;
+import com.pintabar.usermanagement.model.entity.User;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;

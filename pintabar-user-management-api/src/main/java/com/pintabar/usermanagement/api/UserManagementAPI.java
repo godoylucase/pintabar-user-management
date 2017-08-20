@@ -1,9 +1,8 @@
 package com.pintabar.usermanagement.api;
 
 import com.pintabar.commons.exceptions.general.DataNotFoundException;
-import com.pintabar.usermanagement.dto.UserDTO;
+import com.pintabar.usermanagement.model.dto.UserDTO;
 import org.hibernate.validator.constraints.NotBlank;
-import org.springframework.stereotype.Component;
 
 import javax.validation.Valid;
 import javax.ws.rs.Consumes;

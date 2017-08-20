@@ -21,6 +21,11 @@
             <artifactId>pintabar-user-management-service</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.pintabar</groupId>
+            <artifactId>pintabar-user-management-api</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
