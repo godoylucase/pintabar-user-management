@@ -1,10 +1,10 @@
-package com.pintabar.usermanagement.api.impl;
+package com.pintabar.usermanagement.app.api.impl;
 
 import com.pintabar.commons.exceptions.general.DataNotFoundException;
-import com.pintabar.usermanagement.api.UserManagementAPI;
-import com.pintabar.usermanagement.dto.UserDTO;
-import org.springframework.stereotype.Component;
+import com.pintabar.usermanagement.app.api.UserManagementAPI;
+import com.pintabar.usermanagement.model.dto.UserDTO;
 import com.pintabar.usermanagement.service.UserManagementService;
+import org.springframework.stereotype.Component;
 
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriBuilder;

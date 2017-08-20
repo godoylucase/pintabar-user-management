@@ -1,4 +1,4 @@
-package com.pintabar.usermanagement.dtoentityinterface;
+package com.pintabar.usermanagement.model.dtoentityinterface;
 
 /**
  * Created by lucasgodoy on 2/06/17.

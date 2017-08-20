@@ -1,4 +1,4 @@
-package com.pintabar.usermanagement.entity;
+package com.pintabar.usermanagement.model.entity;
 
 import com.google.common.base.Objects;
 import com.pintabar.entities.base.UUIDBaseEntity;
