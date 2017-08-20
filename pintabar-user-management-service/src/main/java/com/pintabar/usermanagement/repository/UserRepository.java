@@ -1,7 +1,7 @@
-package com.pintabar.usermanagement.service.repository;
+package com.pintabar.usermanagement.repository;
 
 import com.pintabar.repositories.GenericJpaRepository;
-import com.pintabar.usermanagement.model.entity.User;
+import com.pintabar.usermanagement.entity.User;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;

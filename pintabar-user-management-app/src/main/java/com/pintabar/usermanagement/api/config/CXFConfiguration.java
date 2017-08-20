@@ -1,19 +1,24 @@
-package com.pintabar.usermanagement.app.api.config;
+package com.pintabar.usermanagement.api.config;
 
 import com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider;
 import com.pintabar.commons.api.rest.mappers.AppExceptionMapper;
 import com.pintabar.commons.api.rest.mappers.GenericExceptionMapper;
 import com.pintabar.commons.api.rest.mappers.RestValidationExceptionMapper;
-import com.pintabar.usermanagement.app.api.UserManagementAPI;
+import com.pintabar.usermanagement.api.UserManagementAPI;
 import org.apache.cxf.Bus;
 import org.apache.cxf.endpoint.Server;
+import org.apache.cxf.interceptor.Interceptor;
 import org.apache.cxf.jaxrs.JAXRSServerFactoryBean;
 import org.apache.cxf.jaxrs.validation.JAXRSBeanValidationInInterceptor;
 import org.apache.cxf.jaxrs.validation.JAXRSBeanValidationOutInterceptor;
+import org.apache.cxf.jaxrs.validation.ValidationExceptionMapper;
+import org.apache.cxf.message.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.Arrays;
 import java.util.Collections;
 
 /**

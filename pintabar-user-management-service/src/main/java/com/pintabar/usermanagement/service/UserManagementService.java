@@ -1,7 +1,7 @@
 package com.pintabar.usermanagement.service;
 
 import com.pintabar.commons.exceptions.general.DataNotFoundException;
-import com.pintabar.usermanagement.model.dto.UserDTO;
+import com.pintabar.usermanagement.dto.UserDTO;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package com.pintabar.usermanagement.app;
+package com.pintabar.usermanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

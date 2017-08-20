@@ -1,6 +1,6 @@
-package com.pintabar.usermanagement.service.repository.querydsl;
+package com.pintabar.usermanagement.repository.querydsl;
 
-import com.pintabar.usermanagement.model.entity.QUser;
+import com.pintabar.usermanagement.entity.QUser;
 import com.querydsl.core.types.Predicate;
 
 /**
