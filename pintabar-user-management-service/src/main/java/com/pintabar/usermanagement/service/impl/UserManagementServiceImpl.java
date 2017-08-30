@@ -92,10 +92,8 @@ public class UserManagementServiceImpl implements UserManagementService {
 
 	@Override
 	public Boolean isValidUser(String uuid) throws DataNotFoundException {
-		return isValidUser(userRepository.findByUuid(uuid).orElseThrow(() -> new DataNotFoundException(ErrorCode.USER_NOT_FOUND)));
-	}
-
-	private Boolean isValidUser(User user) {
+		User user =  userRepository.findByUuid(uuid)
+				.orElseThrow(() -> new DataNotFoundException(ErrorCode.USER_NOT_FOUND));
 		return user.isValid();
 	}
 }

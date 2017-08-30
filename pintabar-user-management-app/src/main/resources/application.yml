@@ -14,7 +14,7 @@ liquibase:
     change-log: classpath:/db/changelog/db.changelog-master.xml
 
 cxf:
-    path: /userManagement
+    path: /api/userManagement
 server:
     port: 8081
 
